@@ -1,6 +1,6 @@
 import type { RegisterFormData } from "../pages/sign-up/sign-up.tsx";
 
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 const getToken = () => localStorage.getItem("token");
 
