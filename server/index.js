@@ -10,7 +10,7 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://admin-panel-chi-lake.vercel.app",
     credentials: true,
   }),
 );
