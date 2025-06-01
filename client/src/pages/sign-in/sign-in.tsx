@@ -89,8 +89,8 @@ export const SignInPage = () => {
             </div>
 
             <div className="form-check mb-3">
-              <input className="form-check-input" type="checkbox" />
-              <label className="form-check-label" htmlFor="checkDefault">
+              <input className="form-check-input" type="checkbox" id='rememberMe'/>
+              <label className="form-check-label" htmlFor="rememberMe">
                 Remember me
               </label>
             </div>

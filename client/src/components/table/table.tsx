@@ -90,6 +90,7 @@ export const Table = ({
                 type="checkbox"
                 checked={isAllSelected}
                 onChange={handleMainCheckboxChange}
+                aria-label="Choose all users"
               />
             </th>
             {columns.map((column) => {
@@ -119,6 +120,7 @@ export const Table = ({
                     type="checkbox"
                     checked={selectedIds.includes(user.id)}
                     onChange={() => handleRowCheckboxChange(user.id)}
+                    aria-label="Choose this user"
                   />
                 </td>
                 <td>{user.name}</td>

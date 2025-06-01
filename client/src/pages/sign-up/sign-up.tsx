@@ -111,18 +111,6 @@ export const SignUpPage = () => {
                 </div>
               )}
             </div>
-
-            <div className="form-check mb-3">
-              <input
-                className="form-check-input"
-                type="checkbox"
-                id="checkDefault"
-              />
-              <label className="form-check-label" htmlFor="checkDefault">
-                Remember me
-              </label>
-            </div>
-
             <button className="btn btn-primary w-100" disabled={isSubmitting}>
               {isSubmitting ? "Signing up..." : "Sign up"}
             </button>
