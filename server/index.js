@@ -22,5 +22,3 @@ app.use("/api/users", userRoutes);
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
-
-// wxH6BOik31Tnyz48
